@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/loginpage2.css">
+    <script src="./js/loginpage2.js" defer></script>
+</head>
+<body id="bdy">
+    <div id="outerDiv">
+        <form id="fom">
+        <div id="innerDiv">
+            <h1 id="headingOfPage">Book of Bond</h1>
+            <div id="inputDiv">
+                <input id="Email" type="text" placeholder="Username">
+            </div>
+            <div id="passwordDiv">
+                <input id="pass" placeholder="Enter the password" type="password">
+                <img id="visible" src="./assests/logos/hidden.jpg" onmousedown="visiblepass()" onmouseup="hidenpass()">
+            </div>
+            <h1 id="result"></h1>
+            <input id="but" type="button" value="Login" onclick="autho()">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

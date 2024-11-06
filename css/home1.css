@@ -1,0 +1,281 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    transition: all 3s;
+}
+#maindiv{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assests/images/homeback.jpg);
+    background-size: 100% 100vh;
+}
+.li{
+    float: left;
+    height: 7vh;
+    width: 25%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    list-style: none;
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3vh;
+}
+#image{
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    top: 37vh;
+    left: 29vw;
+    rotate: -24deg;
+}
+#giftbox{
+    width: 15vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 5vh;
+    right: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(125%);
+}
+#tbox{
+    width: 5.2vw;
+    height: 2vh;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 0px 0px;
+    border: 0.5px solid black;
+}
+#strip1{
+    width: 1vw;
+    height: 2vh;
+    background-color: red;
+   
+}
+#lbox{
+    width: 5vw;
+    height: 8vh;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 5px 5px;
+    border: 0.5px solid black;
+
+}
+#strip{
+    width: 1vw;
+    height: 8vh;
+    background-color: red;
+    
+}
+#ribbon{
+    clip-path: polygon(50% 100%, 100% 0, 100% 100%, 0 100%, 0 0);
+    background-color: red;
+    width: 1vw;
+    height: 2vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#book{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    background-image: url(../assests/images/poster1.png);
+    background-size: 100% 70vh;
+    box-shadow: 5px 5px 5px black;
+}
+#page1{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    background-image: url(../assests/images/0.png);
+    background-size: 100% 70vh;
+    box-shadow: -5px -5px 5px black;
+    
+}
+#page2{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(white,pink);
+}
+#page3{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    background-image: url(../assests/images/1.png);
+    background-size: 100% 70vh;
+}
+#page4{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    background-image: radial-gradient(pink,skyblue);
+}
+#page5{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    background-image: url(../assests/images/love.jpg);
+    background-size: 100% 70vh;
+}
+#page6{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    background-image: radial-gradient(white,rgb(238, 223, 223));
+}
+#page7{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    background-image: url(../assests/images/7.png);
+    background-size: 100% 70vh;
+}
+#page8{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    background-image: radial-gradient(white,skyblue);
+   
+}
+#page9{
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    background-image: url(../assests/images/gc.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#close{
+    position: absolute;
+    top: 14vh;
+    left: 81vw;
+    font-size: 3vw;
+    color: red;
+}
+#wish{
+    font-size: 4vw;
+    position: absolute;
+    left: 2vw;
+}
+.click{
+    position: absolute;
+    right: 1vw;
+    bottom: 2vh;
+}
+#wishes{
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    left: 5vw;
+    top: 7vh;
+}
+#wish2{
+    font-size: 2vw;
+    position: absolute;
+    top: 25vh;
+    left: 3vw;
+}
+#rab{
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 2vh;
+    left: 5vw;
+}
+#best{
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    left: 5vw;
+    top: 7vh;
+}
+#wish3{
+    font-size: 2vw;
+    position: absolute;
+    top: 26vh;
+    left: 3vw;
+}
+#wish4{
+    font-size: 2vw;
+    position: absolute;
+    top: 26vh;
+    left: 3vw;
+}
+#made{
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    left: 5vw;
+    top: 7vh;
+}
+#d3{
+    width: 7vw;
+    height: 12vh;
+    position: absolute;
+    bottom: 25vh;
+    right: 6.5vw;
+
+}
+#popper{
+    position: absolute;
+    bottom: 0px;
+}
+#blurdiv{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-image: url(../assests/gifs/popper4.gif);
+    position: absolute;
+    top: 0vh;
+}
+#hb{
+    width: 100%;
+    height: 100vh;
+}
+#round{
+    width: 10vw;
+    height: 18vh;
+    position: absolute;
+    bottom: 20vh;
+    left: 40vw;
+
+}
+#in{
+    position: absolute;
+    bottom: 1vh;
+    right: 0.5vw;
+}

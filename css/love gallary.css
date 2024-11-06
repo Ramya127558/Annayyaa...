@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 2s;
+}
+
+#maindiv{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background-image: url(../assests/images/love1.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+#imgbox{
+    width: 45vw;
+    height: 90vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 90vh;
+    position: relative;
+    left: 27.5vw;
+    top: 10vh;
+}
+
+.li{
+    float: left;
+    height: 7vh;
+    width: 25%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    list-style: none;
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3vh;
+    
+}
+#left{
+    width: 10vh;
+    height: 10vh;
+    font-size: 20vh;
+    position: absolute;
+    left: 2vw;
+    top: 40vh;
+    background-color: transparent;
+    border: none;
+}
+#right{
+    width: 10vh;
+    height: 10vh;
+    font-size: 20vh;
+    position: absolute;
+    right: 2vw;
+    top: 40vh;
+    background-color: transparent;
+    border: none;
+}
+#imggallery{
+    width: 100%;
+    height: 450vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(75deg,#ffc0c0,
+    #ff0000);
+    box-shadow: 5px 5px 5px black;
+
+}
+.images{
+    width: 20vw;
+    height: 40vh;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.5s;
+    filter: blur(0.5px);
+}
+.images:hover{
+    transform: scale(1.2);
+    filter: blur();
+}
+   
+#bigimg{
+    width: 100%;
+    height: 200vh;
+    background-color: rgba(19, 18, 18, 0.777);
+    position: fixed;
+    top: 0px;
+    
+}
+#close{
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    right: 17vw;
+    top: 25vw;
+}
+#bigimage{
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
